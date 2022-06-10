@@ -67,3 +67,36 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+@media (max-width: 768px) {
+  #yoga {
+    display: none;
+  }
+  h2 {
+    text-align: center;
+  }
+  .link {
+    display: flex;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 70px;
+  }
+  .about-me {
+    font-size: 30px;
+  }
+}
+@media (max-width: 768px) {
+  #weather {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  #youghurt {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .first-image {
+    text-align: center;
+  }
+}
