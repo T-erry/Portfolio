@@ -1,6 +1,7 @@
 
 import house from '../assets/house.png';
 import Gym from '../assets/projects/Gym.png';
+import smarthome from "../assets/smarthome.png"
 
 import Dictionary from '../assets/projects/Dictionary.png';
 
@@ -13,6 +14,7 @@ export const data=[
         live: "https://real-estate-marketplace-three.vercel.app/"
        
     },
+
     {
         id:3,
         name:"React JS Application",
@@ -21,6 +23,15 @@ export const data=[
         live: "https://search-words.netlify.app/"
     
     },
+    {
+        id:3,
+        name:"Smart Home Application",
+        image: smarthome,
+        github:"https://github.com/T-erry/smart-home-application",
+        live: "https://smart-home-application-x7l6.vercel.app/"
+    
+    },
+
     {
         id:2,
         name:"A fullstack application using React and Ruby on Rails",
